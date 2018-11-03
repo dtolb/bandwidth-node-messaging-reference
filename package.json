@@ -1,0 +1,35 @@
+{
+  "name": "bandwidth-node-messaging-reference",
+  "version": "1.0.0",
+  "description": "Basic reference application for Bandwidth v2 Messaging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtolb/bandwidth-node-messaging-reference.git"
+  },
+  "keywords": [
+    "node",
+    "bandwidth",
+    "sms",
+    "mms",
+    "group-mms",
+    "text"
+  ],
+  "author": "Dan Tolbert",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dtolb/bandwidth-node-messaging-reference/issues"
+  },
+  "homepage": "https://github.com/dtolb/bandwidth-node-messaging-reference#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^4.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  }
+}
